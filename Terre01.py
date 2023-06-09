@@ -1,3 +1,3 @@
 import os.path
-nom_fichier=os.path.basename(_file_)
-print (filename)
+nom_fichier=os.path.basename(__file__)
+print (__file__)
