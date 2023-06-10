@@ -1,6 +1,10 @@
-x = int(input ("Introduire un nombre:"))
+nombre = input("Entrez un nombre : ")
 
-if (x % 2) == 0:
-	print ("le nombre est pair")
+if nombre.lstrip('-').isdigit():
+    nombre = int(nombre)
+    if nombre % 2 == 0:
+        print("Le nombre est pair.")
+    else:
+        print("Le nombre est impair.")
 else:
-	print ("le nombre est impaire")
+    print("Tu me la mets pas à l'envers.")
